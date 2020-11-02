@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Germinatrux\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Germinatrux\\.nuget\\packages"
+    ]
+  }
+}

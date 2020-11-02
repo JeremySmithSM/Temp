@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RJSProject8", "RJSProject8\RJSProject8.csproj", "{8DF9240B-F9D2-4653-B3C0-FB61144C4909}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DF9240B-F9D2-4653-B3C0-FB61144C4909}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DF9240B-F9D2-4653-B3C0-FB61144C4909}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DF9240B-F9D2-4653-B3C0-FB61144C4909}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DF9240B-F9D2-4653-B3C0-FB61144C4909}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7354A2A6-25B8-49C4-91A9-77F2177DD0BA}
+	EndGlobalSection
+EndGlobal

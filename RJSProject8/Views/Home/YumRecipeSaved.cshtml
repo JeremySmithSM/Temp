@@ -1,0 +1,40 @@
+﻿@model RJSProject8.Models.Recipe
+@*
+*@
+@{
+	ViewData["Title"] = "Create Recipe";
+}
+
+<h3>Recipe Saved!</h3>
+<a type="button" class="" asp-area="" asp-controller="Home" asp-action="YumCookieMain">Back</a>
+<br />
+<a type="button" class="" asp-area="" asp-controller="Home" asp-action="YumRecipeEdit">Edit</a>
+<br />
+
+
+<table cellpadding="10">
+	<tr>
+		<td>
+			<h5>Time Needed</h5>
+			<p>@Model.TimeNeeded</p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<h5>Tools Needed</h5>
+			<p>@Model.ToolsNeeded</p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<h5>Ingredients</h5>
+			<p>@Model.Ingredients</p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<h5>Directions</h5>
+			<p>@Model.Directions</p>
+		</td>
+	</tr>
+</table>

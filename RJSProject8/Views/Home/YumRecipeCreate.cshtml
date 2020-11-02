@@ -1,0 +1,62 @@
+﻿@model RJSProject8.Models.Recipe
+@* Recipe Creation
+*@
+@{
+	ViewData["Title"] = "Create Recipe";
+
+}
+
+<h2>Create New Recipe</h2>
+<br />
+
+<span>Select Cookie Type (WIP)</span>
+<select>
+	<option value="Chocolate Chippie">Chocolate Chippie</option>
+	<option value="Oatmeal Raisin eww">Oatmeal Raisin eww</option>
+</select>
+<hr />
+
+<form method="post">
+	<table cellpadding="10">
+		<tr asp-validation-summary="All" class="alert-info">
+		</tr>
+		<tr>
+			<td>
+				<h5>Time Needed</h5>
+				<p><input asp-for="TimeNeeded" placeholder="Minutes and Seconds" /></p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<h5>Tools Needed</h5>
+				<p><input asp-for="ToolsNeeded" placeholder="Thinks and Things" /></p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<h5>Ingredients</h5>
+				<p><input asp-for="Ingredients" placeholder="This and That" /></p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<h5>Directions</h5>
+				<p><input asp-for="Directions" placeholder="Actions and Reactions" /></p>
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<table cellpadding="5">
+					<tr>
+						<td>
+							<input type="submit" value="Create Recipe" />
+						</td>
+						<td>
+							<a type="button" class="" asp-area="" asp-controller="Home" asp-action="YumCookieMain">Cancel</a>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</form>
